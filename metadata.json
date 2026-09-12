@@ -1,0 +1,8 @@
+{
+  "name": "Smart TV Cast",
+  "description": "Instantly discover and stream videos to any Smart TV over WiFi using NsdManager network service discovery. Just tap to cast and play.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

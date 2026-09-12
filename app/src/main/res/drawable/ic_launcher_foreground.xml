@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- TV Screen Outline / Body -->
+    <path
+        android:pathData="M27,33 C27,29.5 29.5,27 33,27 L75,27 C78.5,27 81,29.5 81,33 L81,63 C81,66.5 78.5,69 75,69 L33,69 C29.5,69 27,66.5 27,63 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- TV Stand Base -->
+    <path
+        android:pathData="M46,69 L44,77 L64,77 L62,69"
+        android:strokeWidth="3"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M40,77 L68,77"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Cast Signal Arc Waves in bottom-left inside TV -->
+    <path
+        android:pathData="M33,63 A4,4 0 0,1 37,63"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M33,56 A11,11 0 0,1 44,63"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M33,49 A18,18 0 0,1 51,63"
+        android:strokeWidth="3.5"
+        android:strokeColor="#818CF8"
+        android:strokeLineCap="round" />
+
+    <!-- Play Symbol in center right of TV screen with vibrant gradient -->
+    <path
+        android:pathData="M56,41 L70,48 L56,55 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="56"
+                android:startY="41"
+                android:endX="70"
+                android:endY="55"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Cast Connection Active Dot Indicator -->
+    <path
+        android:pathData="M75,34 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#10B981" />
+</vector>
